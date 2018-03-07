@@ -116,10 +116,6 @@ figure {
   background: #fff;
 }
 
-body {
-  overflow: hidden;
-}
-
 @media screen and (max-width: 768px) {
   .gtco-nav {
     padding: 10px 0;
@@ -4141,4 +4137,10 @@ ul.address {
 
 #gtco-header1 {
   background: linear-gradient(0deg, rgba(235, 79, 79, 0.6), rgba(224, 23, 3, 0.9));
+}
+
+@media(min-width:991px) {
+  body {
+    overflow: hidden;
+  }
 }
